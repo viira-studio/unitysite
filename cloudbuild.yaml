@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/ironic-objectivist-369804/unitysite', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', 'gcr.io/ironic-objectivist-369804/unitysite']
